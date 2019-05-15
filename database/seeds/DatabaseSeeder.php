@@ -220,6 +220,5 @@ class DatabaseSeeder extends Seeder
             $size->save();
         }
 
-
     }
 }
