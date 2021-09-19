@@ -141,3 +141,15 @@ span.collapsing{
 		height: 24px;
 	}
 }
+/* InleverOpdracht 2c netjes uitlijen van de prijs: Styling */
+.product-title{
+	display: flex;
+	justify-content: space-between;
+}
+
+/* InleverOpdracht 2d netjes uitlijen van de button */
+.product-body{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}

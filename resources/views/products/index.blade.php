@@ -8,6 +8,7 @@
 				<img src="{{ url($product->image ?? 'img/placeholder.jpg') }}" alt="{{ $product->title }}" class="rounded">
 				<div class="product-body">
 					<div>
+						<!-- InlverOpdracht 2c Op deze class nieuwe styling toegevoegd -->
 						<h5 class="product-title"><span>{{ $product->title }}</span><em>&euro;{{ $product->price }}</em></h5>
 						@unless(empty($product->description))
 							<p>{{ $product->description }}</p>
