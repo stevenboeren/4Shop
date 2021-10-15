@@ -23,6 +23,7 @@ class CreateProductsTable extends Migration
             $table->boolean('active')->default(true);
             $table->timestamps();
             $table->decimal('discount', $precision = 4, $scale = 1)->nullable();
+            $table->unsignedBigInteger('category_id');
         });
     }
 
